@@ -5,3 +5,5 @@ echo "\n<<< Starting Homebrew Setup >>>\n"
 
 brew install httpie
 brew install bat
+
+brew install --cask --no-quarantine alfred
