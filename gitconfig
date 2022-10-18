@@ -1,0 +1,16 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = timmac62
+	email = 25373189+timmac62@users.noreply.github.com
+[core]
+	editor = vi
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+	aliases = config --get-regexp '^alias\\.'
