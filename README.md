@@ -10,6 +10,4 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Mission Control Preferences (don't rearrange spaces)
 - Finder Show Path Bar
 - Trackpad (Three finger drag and tap to click)
-- .zshrc
 - Git (config and SSH)
-- Homebrew install
