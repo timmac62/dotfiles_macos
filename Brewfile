@@ -53,6 +53,8 @@ brew "jq"
 brew "lcov"
 # Library for storing/retrieving passwords and other secrets
 brew "libsecret"
+# Mac App Store command-line interface
+brew "mas"
 # HTTP/2 C Library
 brew "nghttp2"
 # Small build system for use with gyp or CMake
@@ -73,3 +75,16 @@ cask "alfred"
 cask "dropbox"
 # Git client focusing on productivity
 cask "gitkraken"
+mas "Bear", id: 1091189122
+mas "Flow", id: 1423210932
+mas "GarageBand", id: 682658836
+mas "HP Smart", id: 1474276998
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Microsoft OneNote", id: 784801555
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "PlayGuitarHits", id: 1328248954
+mas "Things", id: 904280696
+mas "Xcode", id: 497799835
