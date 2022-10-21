@@ -37,7 +37,7 @@ brew "fetch"
 # Reports from gcov test coverage program
 brew "gcovr"
 # Distributed revision control system
-brew "git"
+brew ""
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # OpenType text shaping engine
@@ -52,6 +52,8 @@ brew "httpie"
 brew "jq"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
+# Pager program similar to more
+brew "less"
 # Library for storing/retrieving passwords and other secrets
 brew "libsecret"
 # Mac App Store command-line interface
