@@ -1,12 +1,14 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
+export NULLCMD=bat
 
 # Change ZSH Options
 
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
+alias trail='<<<${(F)path}'
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
 
