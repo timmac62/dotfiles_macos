@@ -56,6 +56,8 @@ brew "lcov"
 brew "libsecret"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # HTTP/2 C Library
 brew "nghttp2"
 # Small build system for use with gyp or CMake
@@ -66,6 +68,8 @@ brew "node"
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
