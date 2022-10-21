@@ -1,15 +1,14 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
-# Syntax highlighting for man pages using bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
 
 # Create Aliases
-# alias ls='ls -lAFh'
+alias bbd='brew bundle dump --force --describe'
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
+alias man=batman
 
 # Customize Prompt(s)
 PROMPT='
