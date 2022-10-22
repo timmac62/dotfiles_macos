@@ -58,6 +58,8 @@ brew "less"
 brew "libsecret"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # HTTP/2 C Library
