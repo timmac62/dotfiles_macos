@@ -93,9 +93,7 @@ mas "HP Smart", id: 1474276998
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
-mas "Microsoft OneNote", id: 784801555
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "PlayGuitarHits", id: 1328248954
 mas "Things", id: 904280696
 mas "Xcode", id: 497799835
