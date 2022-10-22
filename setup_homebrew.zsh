@@ -13,6 +13,5 @@ fi
 # Currently you cannot do a 'brew bundle --no-quarantine' as an option.
 # It's currently exported in zshrc:
 # export HOMEBREW_CASK_OPTS="--no-quarantine"
-#
 
 brew bundle --verbose 
