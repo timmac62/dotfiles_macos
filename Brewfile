@@ -37,7 +37,7 @@ brew "fetch"
 # Reports from gcov test coverage program
 brew "gcovr"
 # Distributed revision control system
-brew ""
+brew "git"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # OpenType text shaping engine
