@@ -23,19 +23,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-# Create Aliases
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
-alias trail='<<<${(F)path}'
-alias man=batman
-alias bbd='brew bundle dump --force --describe'
-alias rm=trash
-
-# Customize Prompt(s)
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
-
 # Add Locations to $path array
 typeset -U path
 
@@ -45,12 +32,22 @@ path=(
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
 
+# Create Aliases
+# with oh-my-zsh the aliases that I add above and beyond omz's many aliases are
+# in ~/.oh.my.zsh/custom/my_aliases.zsh
+
+# Use ZSH Plugins and ensure that you do this prior to sourcing omz
+plugins=(
+  git
+  you-should-use
+)
+source $ZSH/oh-my-zsh.sh
+
 # Write Handy Functions
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
-# Use ZSH Plugins
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

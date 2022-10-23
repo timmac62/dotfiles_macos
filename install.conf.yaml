@@ -9,9 +9,10 @@
     ~/.zshenv:
     ~/.gitconfig:
     ~/.oh-my-zsh/custom/my_aliases.zsh: oh-my-zsh/custom/my_aliases.zsh
-    # ~/.config/bat:
-    #   # create: true
-    #   path: config/bat
+    # ~/.oh-my-zsh/custom/plugins/zsh-completions: zsh-syntax-highlighting.git
+
+    # https://github.com/MichaelAquilina/zsh-you-should-use.git
+
 
 - create:
     - ~/Work
@@ -20,9 +21,9 @@
   - command: ./setup_homebrew.zsh
     stdout: true
     stderr: true
-  - command: ./setup_node.zsh
-    stdout: true
-    stderr: true
-  - command: ./setup_zsh.zsh
-    stdout: true
-    stderr: true
+  # - command: ./setup_node.zsh
+  #   stdout: true
+  #   stderr: true
+  # - command: ./setup_zsh.zsh
+  #   stdout: true
+  #   stderr: true
