@@ -39,7 +39,11 @@ path=(
 # Use ZSH Plugins and ensure that you do this prior to sourcing omz
 plugins=(
   git
+  history-substring-search
+  macos
+  sudo
   you-should-use
+  zsh-autosuggestions
 )
 source $ZSH/oh-my-zsh.sh
 
